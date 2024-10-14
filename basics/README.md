@@ -4,3 +4,4 @@ ls command
 cd  command 
 ls -l ommand
 ls -al command 
+ls mkdir /tmp/my-first directory
