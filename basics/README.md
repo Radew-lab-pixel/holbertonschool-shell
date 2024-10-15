@@ -13,3 +13,4 @@ file iamafile
 link /bin/ls _ls_
 cp -au ./*.html ../
 mv [A-Z]* /tmp/u
+rm *[~]
