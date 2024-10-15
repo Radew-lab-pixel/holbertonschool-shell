@@ -11,3 +11,4 @@ rmdir /tmp/my_first_directory
 cd-ls . .. /boot
 file iamafile
 link /bin/ls _ls_
+cp -au ./*.html ../
