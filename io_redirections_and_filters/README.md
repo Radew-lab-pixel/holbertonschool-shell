@@ -17,5 +17,6 @@ deletes all the regular files (not the directories) with a .js extension that ar
   instead of   rm ./*.js | rm ./*.*/*.js )
 counts the number of directories and sub-directories in the current directory ( find . -type d -not -name "." |wc -l  instead of find . -type d | wc -l) 
 displays the 10 newest files in the current directory ( ls -t | head -n 10 )
+a list of words as input and prints only words that appear exactly once ( ls -l | uniq -u )
 
 
