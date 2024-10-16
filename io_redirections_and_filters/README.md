@@ -19,4 +19,3 @@ counts the number of directories and sub-directories in the current directory ( 
 displays the 10 newest files in the current directory ( ls -t | head -n 10 )
 a list of words as input and prints only words that appear exactly once ( ls -l | uniq -u )
 
-
