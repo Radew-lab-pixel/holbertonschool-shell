@@ -11,7 +11,7 @@ creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing t
 writes into the file ls_cwd_content the result of the command ls -la ( ls -la > ls_cwd_content )
 duplicates the last line of the file iacta ( tail -n 1 iacta >> iacta )
 deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders ( 
-  find . -name "*.js" -delete
+  find . -type f -name "*.js" -delete
   instead of find -name "*.js" -exec /bin/rm {} \; 
   instead of  find . -name "*.js" -exec /bin/rm -i {} \;
   instead of   rm ./*.js | rm ./*.*/*.js )
