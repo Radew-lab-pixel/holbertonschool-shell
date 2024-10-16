@@ -9,4 +9,6 @@ creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing t
  echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)   instead of    echo -e "Best School\n" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)  ,     echo -e "Best School\n" > \\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)  )
 
 writes into the file ls_cwd_content the result of the command ls -la ( ls -la > ls_cwd_content )
+duplicates the last line of the file iacta ( tail -n 1 iacta >> iacta )
+
 
