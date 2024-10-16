@@ -14,3 +14,4 @@ execute permission to all subdirectories of the current directory for the owner,
 Create a script that creates a directory called my_dir with permissions 751 in the working directory( mkdir -m, --mode=751 my_dir)
 Write a script that changes the group owner to school for the file hello ( chgrp school hello )
 Write a script that changes the owner to vincent and the group owner to staff ( chown -R vincent:staff . )
+Symbolic link that changes the owner and the group owner of _hello to vincent and staff ( ln -s hello _hello )
