@@ -8,4 +8,5 @@ Execute permission to the owner and the group owner, and read permission to othe
 Execute permission to owner, group and other users ( chmod a+x hello instead of chmod o+x hello,  chmod u+x,g+x,o+x hello , chmod 777 hello )
 Execute execute permission only to other users ( chmod 007 hello )
 Script for permission of -rwxr-x-wx  ( chmod 753 hello) 
-Copy mode from reference file ( chmod --reference=olleh hello )    
+Copy mode from reference file ( chmod --reference=olleh hello )
+Execute permissions only to current subdirectories ( chmod a+X ./)     
