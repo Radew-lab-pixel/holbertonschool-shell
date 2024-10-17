@@ -33,4 +33,12 @@ Task 8 : Write a script that prints the result of the addition of 128 with the v
 
 Task 9 : Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
     POWER and DIVIDE are environment variables
-anseer -> 	echo $((POWER/DIVIDE))
+answer -> echo  $((POWER/DIVIDE))
+
+Task 10 : Write a script that displays the result of BREATH to the power LOVE
+
+    BREATH and LOVE are environment variables
+    The script should display the result, followed by a new line
+Answer -> printf $((BREATH**LOVE))
+Not   printf $((pow(BREATH,LOVE)) Not	printf $((BREATH^LOVE))
+
