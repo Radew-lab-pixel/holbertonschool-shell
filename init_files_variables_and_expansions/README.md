@@ -22,3 +22,8 @@ Task 6 : Create a script that creates a new local variable.
     Name: BEST
     Value: School
  answer ->	BEST="School"
+
+Task 7 : Create a script that creates a new global variable.
+    Name: BEST
+    Value: School
+answer ->	export BEST="School"
