@@ -67,9 +67,8 @@ not  echo {a..z}{a..z} , o {a..z}{a..z} | tr -d "oo" | tr " " "\n" | grep
 Task 13 : Write a script that prints a number with two decimal places, followed by a new line
 The number will be stored in the environment variable NUM.
 
-Answer -> printf "%.2f\n" $tester              
+Answer ->  echo $(printf "%.2f" $tester)
 
-maybe  echo $(printf "%.2f" $tester)
-
-not echo $NUM |  
+but why not printf "%.2f\n" $tester
+NOT  echo $NUM |  
 
