@@ -10,4 +10,4 @@ Task 2 : Add /action to the PATH. /action should be the last directory the shell
            PATH=$PATH:/action instead of PATH=$PATH:./action
 
 Task 3 : Create a script that counts the number of directories in the PATH
-	echo $PATH | wc -l 
+	echo $PATH | tr ":" "\n" | wc -l instead of    echo $PATH | wc -l 
