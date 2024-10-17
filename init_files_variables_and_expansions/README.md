@@ -39,6 +39,7 @@ Task 10 : Write a script that displays the result of BREATH to the power LOVE
 
     BREATH and LOVE are environment variables
     The script should display the result, followed by a new line
-Answer -> printf $((BREATH**LOVE))
+Answer -> echo $((BREATH**LOVE))      not printf $((BREATH**LOVE))    -> why ???
 Not   printf $((pow(BREATH,LOVE)) Not	printf $((BREATH^LOVE))
+
 
