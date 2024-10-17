@@ -11,3 +11,6 @@ Task 2 : Add /action to the PATH. /action should be the last directory the shell
 
 Task 3 : Create a script that counts the number of directories in the PATH
 	echo $PATH | tr -s ":" "\n" | wc -l  instead of  echo $PATH | tr ":" "\n" | wc -l , PATH | tr ":" "\n" | wc -l instead of    echo $PATH | wc -l 
+
+Task 4 : Create a script that lists environment variables.
+	printenv 
