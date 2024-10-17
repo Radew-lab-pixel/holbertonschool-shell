@@ -59,5 +59,8 @@ Task 12 : Create a script that prints all possible combinations of two letters, 
     Do not print oo
     Your script file should contain maximum 64 characters
 
-Answer - >  echo {a..z}{a..z}
+Answer - > echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
+
+not  echo {a..z}{a..z} , o {a..z}{a..z} | tr -d "oo" | tr " " "\n" | grep
+
 
