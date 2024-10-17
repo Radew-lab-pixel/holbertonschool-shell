@@ -69,6 +69,7 @@ The number will be stored in the environment variable NUM.
 
 Answer ->  echo $(printf "%.2f" $tester)
 
-but why not printf "%.2f\n" $tester
+OR  printf "%.2f\n" $tester
+ 
 NOT  echo $NUM |  
 
