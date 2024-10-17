@@ -51,4 +51,13 @@ NOT  echo $((2#($BINARY)))
          
 not printf "%d\n, $BINARY not printf "%d\n","$ ((2#$BINARY))" These two works on command line 
 
+Task 12 : Create a script that prints all possible combinations of two letters, except oo.
+
+    Letters are lower cases, from a to z
+    One combination per line
+    The output should be alpha ordered, starting with aa
+    Do not print oo
+    Your script file should contain maximum 64 characters
+
+Answer - >  echo {a..z}{a..z}
 
