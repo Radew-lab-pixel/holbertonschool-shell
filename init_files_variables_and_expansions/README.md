@@ -7,5 +7,5 @@ Task 1 : Create a script that prints hello user, where user is the current Linux
           echo "hello " $USER instead of  echo hello $USER , alias user="whoami" | echo "hello "user
 
 Task 2 : Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
-           PATH=$PATH:./action
+           PPATH=$PATH:/action instead of PATH=$PATH:./action
 
