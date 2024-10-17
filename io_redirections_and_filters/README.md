@@ -26,3 +26,4 @@ Display all lines of the file /etc/ssh/sshd_config starting with a letter includ
 Replace all characters A and c from input to Z and e respectively. ( tr "A" "Z" | tr "c" "e" instead of 0>&1 | tr "A" "Z" | tr "c" "e" )
 Create a script that removes all letters c and C from input ( tr -d cC )
 Write a script that reverse its input. ( rev )
+Write a script that displays all users and their home directories, sorted by users ( cut -f1,6 -d ":" /etc/passwd | sort instead of sort | cut -f1,6 -d ":" /etc/passwd )
