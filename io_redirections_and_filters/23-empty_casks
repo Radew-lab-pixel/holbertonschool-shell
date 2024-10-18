@@ -1,2 +1,2 @@
 #!/bin/bash
-find .* -empty |  tr -s "/" | cut -f3 -d "/"
+find .* -empty |  tr -s "."| cut -f3 -d "/"
