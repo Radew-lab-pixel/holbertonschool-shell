@@ -1,2 +1,2 @@
 #!/bin/bash
-find *. -empty | uniq -u 
+find *. -empty | uniq 
