@@ -1,2 +1,2 @@
 #!/bin/bash
-find .* -print -empty | uniq -u |  tr -s "/" | cut -f3 -d "/"
+find .* -empty | uniq -u |  tr -s "/" | cut -f3 -d "/"
