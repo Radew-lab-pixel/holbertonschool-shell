@@ -1,2 +1,2 @@
 #!/bin/bash
-find *. -empty | uniq 
+find .* -empty | uniq -u | tr -d "."
