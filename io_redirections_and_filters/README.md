@@ -36,7 +36,9 @@ Task 23 : Write a command that finds all empty files and directories in the curr
     The listing should end with a new line
     You are not allowed to use basename, grep, egrep, fgrep or rgrep
 
- Answer  - > find .* -size 0 | rev | cut -d "/" -f1 | rev
+ Answer  - > find . -empty |rev | cut -d "/" -f1 |rev 
+
+NOT find .* -size 0 | rev | cut -d "/" -f1 | rev
 
 NOT find .* -size 0 
 NOT find .* -size 0 | rev | cut -d "/" -f1 | rev | sort -u
