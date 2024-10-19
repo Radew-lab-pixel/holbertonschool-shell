@@ -61,4 +61,6 @@ Task 24 : Write a script that lists all the files with a .gif extension in the c
     You are not allowed to use basename, grep, egrep, fgrep or rgrep
 
 
-  Answer :  find . -type f -name "*.gif"
+  Answer :  
+NOT find . -type f -name "*.md" | rev | cut -f1 -d "/" | rev | cut -f1 -d "." 
+NOT find . -type f -name "*.gif"
