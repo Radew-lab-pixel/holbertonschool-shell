@@ -62,5 +62,7 @@ Task 24 : Write a script that lists all the files with a .gif extension in the c
 
 
   Answer :  
+find .* -type f -name "*.md" | rev | cut -f1 -d "/" | rev | cut -f1 -d "." 
+NOT find . -type f -name "*.md" | rev | cut -f1 -d "/" | rev | cut -f1 -d "." 
 NOT find . -type f -name "*.md" | rev | cut -f1 -d "/" | rev | cut -f1 -d "." 
 NOT find . -type f -name "*.gif"
